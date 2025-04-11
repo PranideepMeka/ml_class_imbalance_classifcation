@@ -113,3 +113,16 @@ Tested with four solvers:
 4. **Model Explainability**: Apply SHAP or LIME to understand feature contributions for more transparent decisions.
 
 ---
+---
+​The Oil Spill Detection dataset is available through the UCI Machine Learning Repository, a widely recognized resource for machine learning datasets. This dataset was introduced in the 1998 paper by Miroslav Kubat et al., titled "Machine Learning for the Detection of Oil Spills in Satellite Radar Images." It comprises 937 instances with 48 numerical features derived from satellite radar images, aimed at classifying regions as containing oil spills or not.​
+
+📄 License Information
+The UCI Machine Learning Repository does not enforce a universal license across all its datasets. Licensing terms can vary depending on the dataset's contributor. For the Oil Spill Detection dataset, specific licensing details are not explicitly provided on the UCI website. In such cases, it is generally understood that the dataset is intended for research and educational purposes. However, for any commercial use, it's advisable to contact the original authors or the UCI repository maintainers to obtain appropriate permissions.​
+
+📌 Citation
+When utilizing this dataset in your work, it's important to cite the original source:​
+
+Kubat, M., Holte, R., & Matwin, S. (1998). Machine Learning for the Detection of Oil Spills in Satellite Radar Images. Machine Learning, 30(2-3), 195–215.​
+
+This citation acknowledges the original creators and supports the academic use of the dataset.
+---
