@@ -82,18 +82,18 @@ Tested with four solvers:
 
 ## 📊 Model Comparison Summary
 
-| Model                        | Hyperparameters                                                              | Accuracy Score | SMOTE Used |
+| Model                         | Hyperparameters and parameters Tuning                                      | Accuracy Score | SMOTE Used |
 |-----------------------------|------------------------------------------------------------------------------|----------------|------------|
-| **Logistic Regression (lr1)** | `penalty='l2', solver='liblinear'`                                           | **97.52%**     | ❌ No       |
-| Logistic Regression (lr2)   | `penalty='l2', solver='newton-cg'`                                          | 97.16%         | ❌ No       |
-| Logistic Regression (lr3)   | `penalty='l2', solver='newton-cholesky'`                                    | 97.16%         | ❌ No       |
-| Logistic Regression (lr4)   | `penalty='elasticnet', solver='saga', l1_ratio=0.5`                          | 96.81%         | ❌ No       |
-| KNN (knn1)                  | `n_neighbors=30, algorithm='ball_tree'`                                     | 77.66%         | ✅ Yes      |
-| KNN (knn2)                  | `n_neighbors=10, algorithm='brute'`                                         | 89.36%         | ✅ Yes      |
-| Decision Tree (dtc1)        | `criterion='entropy', splitter='random'`                                    | 91.84%         | ✅ Yes      |
-| **Decision Tree (dtc2)**     | `criterion='gini', splitter='best'`                                         | **94.68%**     | ✅ Yes      |
-| **Random Forest (rfc_1)**    | `n_estimators=150, criterion='entropy'`                                     | **95.74%**     | ✅ Yes      |
-| Random Forest (rfc_2)       | `n_estimators=100, criterion='gini'`                                        | 95.39%         | ✅ Yes      |
+| **Logistic Regression (lr1)** | `penalty='l2', solver='liblinear'`                                         | **97.52%**     | ❌ No       |
+| Logistic Regression (lr2)     | `penalty='l2', solver='newton-cg'`                                         | 97.16%         | ❌ No       |
+| Logistic Regression (lr3)     | `penalty='l2', solver='newton-cholesky'`                                   | 97.16%         | ❌ No       |
+| Logistic Regression (lr4)     | `penalty='elasticnet', solver='saga', l1_ratio=0.5`                        | 96.81%         | ❌ No       |
+| KNN (knn1)                    | `n_neighbors=30, algorithm='ball_tree'`                                    | 77.66%         | ✅ Yes      |
+| KNN (knn2)                    | `n_neighbors=10, algorithm='brute'`                                        | 89.36%         | ✅ Yes      |
+| Decision Tree (dtc1)          | `criterion='entropy', splitter='random'`                                   | 91.84%         | ✅ Yes      |
+| **Decision Tree (dtc2)**      | `criterion='gini', splitter='best'`                                        | **94.68%**     | ✅ Yes      |
+| **Random Forest (rfc_1)**     | `n_estimators=150, criterion='entropy'`                                    | **95.74%**     | ✅ Yes      |
+| Random Forest (rfc_2)         | `n_estimators=100, criterion='gini'`                                       | 95.39%         | ✅ Yes      |
 
 ---
 
