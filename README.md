@@ -120,7 +120,6 @@ Tested with four solvers:
 The UCI Machine Learning Repository does not enforce a universal license across all its datasets. Licensing terms can vary depending on the dataset's contributor. For the Oil Spill Detection dataset, specific licensing details are not explicitly provided on the UCI website. In such cases, it is generally understood that the dataset is intended for research and educational purposes. However, for any commercial use, it's advisable to contact the original authors or the UCI repository maintainers to obtain appropriate permissions.​
 
 📌 Citation
-When utilizing this dataset in your work, it's important to cite the original source:​
 
 Kubat, M., Holte, R., & Matwin, S. (1998). Machine Learning for the Detection of Oil Spills in Satellite Radar Images. Machine Learning, 30(2-3), 195–215.​
 
