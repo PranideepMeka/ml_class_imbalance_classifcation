@@ -1,6 +1,22 @@
 # ml_class_imbalance_classifcation
 Different Classifcaton algorithems and SMOTE analysis of the oil spill data set 
-Here’s a refined and combined explanation of your analysis, integrating everything into a polished and well-organized format:
+The Oil Spill dataset comes from the UCI Machine Learning Repository, a well-known and trusted source for datasets used in machine learning and data science research.
+
+🔍 Dataset Source:
+Name: Oil Spill Detection Dataset
+
+Repository: UCI Machine Learning Repository
+
+Original Link: https://archive.ics.uci.edu/ml/datasets/Oil+Spill
+
+📄 Description:
+This dataset was originally used for SAR (Synthetic Aperture Radar) image analysis, to detect oil spills in the ocean. Each row in the dataset represents a segment extracted from SAR images. The attributes describe statistical and physical properties of the image segments.
+
+Instances: 937
+
+Features: 48 numerical attributes (like texture, contrast, etc.)
+
+Target: 1 = Oil Spill, 0 = Look-alike (non-spill, such as ocean wave or ship)
 
 ---
 
