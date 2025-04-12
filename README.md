@@ -84,10 +84,10 @@ Tested with four solvers:
 
 | Model                         | Hyperparameters and parameters Tuning                                      | Accuracy Score | SMOTE Used |
 |-----------------------------|------------------------------------------------------------------------------|----------------|------------|
-| **Logistic Regression (lr1)** | `penalty='l2', solver='liblinear'`                                         | **97.52%**     | ❌ No       |
-| Logistic Regression (lr2)     | `penalty='l2', solver='newton-cg'`                                         | 97.16%         | ❌ No       |
-| Logistic Regression (lr3)     | `penalty='l2', solver='newton-cholesky'`                                   | 97.16%         | ❌ No       |
-| Logistic Regression (lr4)     | `penalty='elasticnet', solver='saga', l1_ratio=0.5`                        | 96.81%         | ❌ No       |
+| **Logistic Regression (lr1)** | `penalty='l2', solver='liblinear'`                                         | 92.19%     | ✅ Yes       |
+| Logistic Regression (lr2)     | `penalty='l2', solver='newton-cg'`                                         | 92.55%         | ✅ Yes        |
+| Logistic Regression (lr3)     | `penalty='l2', solver='newton-cholesky'`                                   | 92.55%         | ✅ Yes       |
+| Logistic Regression (lr4)     | `penalty='elasticnet', solver='saga', l1_ratio=0.5`                        | 91.13%         | ✅ Yes       |
 | KNN (knn1)                    | `n_neighbors=30, algorithm='ball_tree'`                                    | 77.66%         | ✅ Yes      |
 | KNN (knn2)                    | `n_neighbors=10, algorithm='brute'`                                        | 89.36%         | ✅ Yes      |
 | Decision Tree (dtc1)          | `criterion='entropy', splitter='random'`                                   | 91.84%         | ✅ Yes      |
@@ -99,7 +99,6 @@ Tested with four solvers:
 
 ## 🧾 Conclusion
 
-- **Logistic Regression (liblinear)** emerged as the top performer, achieving **97.52% accuracy without SMOTE**.
 - **Random Forest** and **Decision Tree** showed strong results with **SMOTE applied**, at **95.74%** and **94.68%**, respectively.
 - SMOTE was **effective** in improving the performance of models sensitive to class imbalance like **KNN** and **Decision Trees**.
 
